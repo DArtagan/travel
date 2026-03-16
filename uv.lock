@@ -190,12 +190,8 @@ name = "travel"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "path" },
     { name = "prosopopee" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "path" },
-    { name = "prosopopee", git = "https://github.com/psycojoker/prosopopee.git" },
-]
+requires-dist = [{ name = "prosopopee", git = "https://github.com/psycojoker/prosopopee.git" }]
