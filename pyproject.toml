@@ -1,7 +1,11 @@
 [project]
 name = "travel"
 version = "0.1.0"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
   "prosopopee",
+  "path",
 ]
+
+[tool.uv.sources]
+prosopopee = { git = "https://github.com/psycojoker/prosopopee.git" }
